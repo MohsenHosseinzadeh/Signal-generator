@@ -1,6 +1,5 @@
 function y = AWGN_Channel(s,SNR,IgnoreNoSignalTimes,UnitPower)
 
-
 %% Add noise
 if IgnoreNoSignalTimes
     Ps = mean(abs(s(s~=0)).^2); % Signal power
