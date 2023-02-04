@@ -1,8 +1,5 @@
 function h = rcosdesign(beta, span, sps, shape)
 
-
-
-
 % Check if sps*span is even
 if mod(sps*span, 2) == 1
     error('span*sps should be even');
